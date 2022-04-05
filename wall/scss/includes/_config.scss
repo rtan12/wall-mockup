@@ -1,0 +1,36 @@
+
+	/**
+	*
+	* 		CONFIG
+	*			- Site Config styles for the site
+	*
+	**/
+		
+	//Fonts
+	$fonts: 		(
+		'main': 		('Circular Std', sans-serif),
+		'demi': 		('integral-cf-demi', ),
+		'extra': 		('integral-cf-extra', ),
+		'headlines': 	('GT Sectra Fine', ),
+		'maragsa': 		('Maragsa Display', )
+
+	);
+
+	//Colors
+	$colors: 		(
+		"brand": 		#FFF
+	);
+
+	//Primary Styles
+	$primary: 	(
+		font-weight: 				400,
+		line-height:				1.15,
+		font-family: 				map-get($fonts, 'main'),
+		overflow-x: 				hidden,
+		background: 				#000,
+		-webkit-font-smoothing: 	antialiased,
+		-moz-osx-font-smoothing: 	grayscale,
+		-webkit-text-size-adjust: 	100%,
+		-ms-text-size-adjust: 		100%,
+		min-width: 					320px 
+	);

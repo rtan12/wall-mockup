@@ -1,0 +1,29 @@
+
+	/**
+	*
+	* 		Layout
+	*			- Grid and Layout styles for the website
+	*
+	**/
+
+	
+	*,
+	:after,
+	:before {
+	    -webkit-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+
+
+	:active,
+	:focus,
+	:hover {
+	    outline: 0 !important;
+	    outline-offset: 0 !important;
+	}
+
+
+	.container {
+		max-width:900px;
+		margin:0 auto;
+	}

@@ -1,0 +1,81 @@
+
+	/**
+	*
+	* 		Typography
+	*			- This file is for importing and fonts into the CSS stylesheet.
+	* 			- Separate your font-specific styles into a different file for readability
+	*
+	**/
+	
+	@font-face {
+	    font-family: 'Circular Std';
+	    src: url('/scss/fonts/CircularStd-Book.woff2') format('woff2'), 
+	    url('/scss/fonts/CircularStd-Book.woff') format('woff'), 
+	    url('/scss/fonts/CircularStd-Book.ttf') format('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+	    font-display: swap;
+	}
+	@font-face {
+	    font-family: 'Circular Std';
+	    src: url('/scss/fonts/CircularStd-Medium.woff2') format('woff2'), 
+	    url('/scss/fonts/CircularStd-Medium.woff') format('woff'), 
+	    url('/scss/fonts/CircularStd-Medium.ttf') format('truetype');
+	    font-weight: 500;
+	    font-style: normal;
+	    font-display: swap;
+	}
+	@font-face {
+	    font-family: 'Circular Std';
+	    src: url('/scss/fonts/CircularStd-Bold.woff2') format('woff2'), 
+	    url('/scss/fonts/CircularStd-Bold.woff') format('woff'), 
+	    url('/scss/fonts/CircularStd-Bold.ttf') format('truetype');
+	    font-weight: bold;
+	    font-style: normal;
+	    font-display: swap;
+	}
+	@font-face {
+	    font-family: 'integral-cf-extra';
+	    src: url('/scss/fonts/integral-cf-extra-bold.woff2') format('woff2'), 
+	    url('/scss/fonts/integral-cf-extra-bold.woff') format('woff'), 
+	    url('/scss/fonts/integral-cf-extra-bold.ttf') format('truetype');
+	    font-weight: bold;
+	    font-style: normal;
+	    font-display: swap;
+	}
+	@font-face {
+	    font-family: 'integral-cf-demi';
+	    src: url('/scss/fonts/integral-cf-demi-bold.woff2') format('woff2'), 
+	    url('/scss/fonts/integral-cf-demi-bold.woff') format('woff'), 
+	    url('/scss/fonts/integral-cf-demi-bold.ttf') format('truetype');
+	    font-weight: bold;
+	    font-style: normal;
+	    font-display: swap;
+	}
+	@font-face {
+	    font-family: 'GT Sectra Fine';
+	    src: url('/scss/fonts/GTSectraFine-Medium.woff2') format('woff2'), 
+	    url('/scss/fonts/GTSectraFine-Medium.woff') format('woff'), 
+	    url('/scss/fonts/GTSectraFine-Medium.ttf') format('truetype');
+	    font-weight: 500;
+	    font-style: normal;
+	    font-display: swap;
+	}
+	@font-face {
+	    font-family: 'GT Sectra Fine';
+	    src: url('/scss/fonts/GTSectraFine-MediumItalic.woff2') format('woff2'), 
+	    url('/scss/fonts/GTSectraFine-MediumItalic.woff') format('woff'), 
+	    url('/scss/fonts/GTSectraFine-MediumItalic.ttf') format('truetype');
+	    font-weight: 500;
+	    font-style: italic;
+	    font-display: swap;
+	}
+	@font-face {
+	    font-family: 'Maragsa Display';
+	    src: url('/scss/fonts/MaragsaDisplay.woff2') format('woff2'), 
+	    url('/scss/fonts/MaragsaDisplay.woff') format('woff'), 
+	    url('/scss/fonts/MaragsaDisplay.ttf') format('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+	    font-display: swap;
+	}

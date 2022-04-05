@@ -1,0 +1,38 @@
+
+	/**
+	*
+	* 		BUTTONS
+	*			- Add any button styles in here.
+	* 			- Below is grouped into a buttons list but the .button is also accessible directly
+	*
+	**/
+	.button {
+		padding:20px 40px;
+		border-radius:75px/100%;
+		display:inline-block;
+		cursor:pointer;
+
+		&.green {
+			background:#6EECC0;
+			color:#000;
+			&:hover {
+				background:darken(#6EECC0,20%);
+			}
+		}
+
+		&.darkgray {
+			background:#111;
+			color:#FFF;
+			&:hover {
+				background:lighten(#111,10%);
+			}
+		}
+
+		&.white {
+			background:#FFF;
+			color:#000;
+			&:hover {
+				background:darken(#FFF,10%);
+			}
+		}
+	}

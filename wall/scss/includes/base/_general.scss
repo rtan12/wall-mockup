@@ -1,0 +1,49 @@
+
+	/**
+	*
+	* 		GENERAL
+	*			- General supporting Styles
+	*
+	**/
+
+		
+	body {			
+		@each $key, $value in $primary {
+			#{"" + $key}: $value ;
+		}
+	}
+
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	    margin: 0;
+	    padding: 0;
+	    font-weight: 500;
+		font-family:map-get($fonts,'fine');
+	}
+
+	a,
+	button,
+	input,
+	p,
+	ul {
+	    margin: 0;
+	    padding: 0;
+	    font-weight: 500;
+	    font-size: 16px;
+		font-family:map-get($fonts,'main');
+	}
+	
+	ul {
+	    font-weight: 500;
+	    font-size: 16px;
+	    font-family:map-get($fonts,'main');
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	}
+

@@ -1,0 +1,36 @@
+{
+  "name": "moderncat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colony Digital",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
+    "@babel/register": "^7.4.4",
+    "autoprefixer": "^8.4.1",
+    "browser-sync": "^2.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-bulk-import": "^1.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://colonydigitalcoleen@bitbucket.org/colonydigital/modern-cat.git"
+  },
+  "homepage": "https://bitbucket.org/colonydigital/modern-cat#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

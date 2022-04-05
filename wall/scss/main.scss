@@ -1,0 +1,24 @@
+
+	/* MAIN CSS FILE */
+	/* ----------------------------------------- */
+
+	//Vendors
+	@import 'includes/vendors/_normalize.scss';
+
+	//Configuration
+	@import 'includes/_config.scss';
+
+	//Helpers
+	@import 'includes/helpers/*';
+
+	//Base
+	@import 'includes/base/*';
+
+	//Partials
+	@import 'includes/partials/*';
+	
+	//Components
+	@import 'includes/components/*';
+
+	//Pages
+	@import 'includes/pages/*';
